@@ -11,7 +11,7 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: all .2s linear;
 }
 
@@ -46,6 +46,12 @@ body{
 section{
     min-height: 60vh;
     padding:1rem;
+}
+
+code{
+    background-color: #aba9a9b8;
+    border-radius: 2px;
+    padding: 3px;
 }
 
 .btn{
@@ -400,8 +406,8 @@ header .navbar ul li a:hover{
     color: white;
   }
   
-  .fa-twitter {
-    background: #55ACEE;
+  .fa-github {
+    background: #000000;
     color: white;
   }
   .fa-linkedin {
@@ -416,6 +422,7 @@ header .navbar ul li a:hover{
   .fa-whatsapp{
     background: green;
     color: white;
+    display: none;
   }
   
 
@@ -496,4 +503,10 @@ header .navbar ul li a:hover{
         bottom:55rem; right: 0rem;
        
     }  
+ }
+ @media screen and (max-width:400px){
+    .fa-whatsapp{
+        display: block;
+    }
+    
  }
