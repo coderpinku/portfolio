@@ -283,6 +283,34 @@ header .navbar ul li a:hover{
     background:var(--yellow);
 }
 
+/* portfolio section */
+
+    
+.portfolio .box-container .box .hide-cover{
+    display: none;
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgba(122, 120, 120, 0.568);
+    bottom: 101.5%;
+    text-align: center;
+    text-decoration: none;
+}
+ .hoverBtn {
+    position: relative;
+    padding: 5px;
+    top: 80%;
+    font-size: 12px;
+    margin: 0 12px;
+    border-radius: 5px;
+    border: 1px solid #FFF0F5;
+    background-color:  transparent;
+    color: white;
+    font-family: 
+
+}
+
 .portfolio .box-container{
     display: flex;
     align-items: center;
@@ -298,7 +326,7 @@ header .navbar ul li a:hover{
     border: 0.2px solid var(--yellow);
     margin:2rem;
     overflow: hidden;
-    cursor: pointer;
+    
 }
 
 .portfolio .box-container .box img{
@@ -309,7 +337,15 @@ header .navbar ul li a:hover{
 
 .portfolio .box-container .box:hover img{
     transform: scale(1.2);
+    
 }
+.portfolio .box-container .box:hover  .hide-cover{
+    display: block;
+    
+
+}
+
+/* contact section  */
 
 .contact .row{
     display: flex;
