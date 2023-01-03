@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{
-    --yellow:#800000;
+    /* --yellow:#800000; */
     --black:#000000;
+    --yellow: cyan;
+    
 }
 
 *{
@@ -106,7 +108,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.7rem solid var(--yellow);
+    border: 0.3rem solid var(--yellow);
 }
 
 header .user .name{
