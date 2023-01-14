@@ -462,7 +462,10 @@ header .navbar ul li a:hover{
     color: white;
     display: none;
   }
-  
+  .span--high{
+    font-weight: bold;
+    font-size: 20px !important;
+  }
 
 
 /* media queries  */
